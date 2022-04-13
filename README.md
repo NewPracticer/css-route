@@ -146,3 +146,35 @@ css路线
                     + 固定定位元素不受祖先元素影响 
                 + 粘性定位
                     + 粘性定位可以被认为是相对定位和固定定位的混合。元素在跨特定阈值前卫相对定位，之后为固定定位。
+        + flex弹性布局
+            + 弹性盒子是一种用于按行或列布局元素的一维布局方法。元素可以膨胀以填充额外的空间，收缩以适应更小的空间
+            + flex容器与flex子项
+                + flex容器
+                    + flex-direction(主轴方向): row、row-reverse、column、column-reverse
+                    + flex-wrap(换行)：nowrap、wrap、wrap-reverse
+                    + flex-flow: flex-direction 与 flex-wrap的合体版
+                    + justify-content(主轴对齐)：flex-start,flex-end,center,space-around,space-between,space-evenly
+                    + align-items(交叉轴对齐)：stretch、flex-start、flex-end、center、baseline 
+                    + align-content(交叉轴对齐，对于多行才起效)：strech、flex-start、flex-end、center、space-around、space-between、space-evenly。当不折行的情况下，align-content是不生效的。
+                + flex子项
+                    + order
+                    + flex-grow
+                    + flex-shrink
+                    + flex-basis
+                    + flex 
+                    + align-self
+            + 布局方案
+                + 内联和块的上下左右居中布局
+                + 不定项居中布局
+                + 均分列布局
+                + 组合嵌套布局、子项分组布局
+            + flex 子项
+                + flex-grow扩展比例
+                + flex-shrink收缩比例
+                + flex-basis及flex缩写
+                + order与align-self  
+            + 子项布局
+                + 等高布局
+                + sticky footer 布局 
+                + 两列与三列布局
+                + 溢出项布局       
