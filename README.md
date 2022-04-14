@@ -170,9 +170,15 @@ css路线
                 + 组合嵌套布局、子项分组布局
             + flex 子项
                 + flex-grow扩展比例
+                    + 默认值为0，全部为1，表示不占用剩余的空白间隙扩展自己的宽度
                 + flex-shrink收缩比例
+                    + 默认值为1，表示flex容器空间不足时，元素的收缩比例
                 + flex-basis及flex缩写
-                + order与align-self  
+                    + flex-basis，默认是auto,指定了flex元素在主轴方向上的初始大小优先级大于宽度或者宽度
+                    + flex属性是flex-grow,flex-shrink和flex-basis的缩写
+                + order与align-self 
+                    + order 默认值是0，改变某一个flex子项的排序位置
+                    + align-self ： 默认值是auto，控制单独某一个flex子项的垂直对齐方式 
             + 子项布局
                 + 等高布局
                 + sticky footer 布局 
